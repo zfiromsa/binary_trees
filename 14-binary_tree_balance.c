@@ -6,7 +6,7 @@
 */
 size_t binary_tree_height(const binary_tree_t *tree);
 /**
- * binary_tree_balance - a fun counts thenodes with at least 1 child in a binary
+ * binary_tree_balance - a fun coun thenodes with at least 1 child in a binary
  *
  * @tree: is a pointer to root node of the tree to balances the number of nodes
  * Return: rnodes, lnodes or 0.
