@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_balances - a fun counts thenodes with at least 1 child in a binary
+ * binary_tree_balance - a fun counts thenodes with at least 1 child in a binary
  *
  * @tree: is a pointer to root node of the tree to balances the number of nodes
  * Return: rnodes, lnodes or 0.
