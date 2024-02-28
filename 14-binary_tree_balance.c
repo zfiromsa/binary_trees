@@ -5,7 +5,7 @@
  * @tree: is a pointer to root node of the tree to balances the number of nodes
  * Return: rnodes, lnodes.
 */
-int binary_tree_balances(const binary_tree_t *tree)
+int binary_tree_balance(const binary_tree_t *tree)
 {
 	int lnodes, rnodes;
 
