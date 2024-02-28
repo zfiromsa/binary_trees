@@ -12,8 +12,8 @@ int binary_tree_balance(const binary_tree_t *tree)
 	rnodes = lnodes = 0;
 	if (tree == NULL)
 		return (lnodes);
-	lnodes = binary_tree_balances(tree->left);
-	rnodes = binary_tree_balances(tree->right);
+	lnodes = binary_tree_balance(tree->left);
+	rnodes = binary_tree_balance(tree->right);
 	return (lnodes - rnodes);
 }
 
