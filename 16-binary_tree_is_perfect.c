@@ -32,7 +32,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	{
 		if ((1 << i) != (1 << height) - 1)
 		{
-			j = 0;
+			j = 1;
 			break;
 		}
 	}
