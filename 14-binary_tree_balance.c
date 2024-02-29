@@ -30,8 +30,8 @@ int binary_tree_balance(const binary_tree_t *tree)
 	rnodes = lnodes = 0;
 	if (tree == NULL)
 		return (0);
-	lnodes = binary_tree_height(tree->left);
-	rnodes = binary_tree_height(tree->right);
+	lnodes = (int)binary_tree_height(tree->left);
+	rnodes = (int)binary_tree_height(tree->right);
 	return (lnodes - rnodes);
 }
 
