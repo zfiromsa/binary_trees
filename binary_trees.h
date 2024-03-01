@@ -58,5 +58,7 @@ bst_t *bst_insert(bst_t **tree, int value);
 bst_t *bst_search(const bst_t *tree, int value);
 bst_t *bst_remove(bst_t *root, int value);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
+int binary_tree_is_avl(const binary_tree_t *tree);
+
 #endif
 
