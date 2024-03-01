@@ -10,13 +10,13 @@
 bool check_bst(const binary_tree_t *tree, int *prev)
 {
 	if (tree == NULL)
-		return true;
+		return (true);
 	if (!check_bst(tree->left, prev))
-		return false;
+		return (false);
 	if (tree->n <= *prev)
-		return false;
+		return (false);
 	*prev = tree->n;
-	return check_bst(tree->right, prev);
+	return (check_bst(tree->right, prev));
 }
 
 /**
@@ -29,9 +29,9 @@ int binary_tree_is_bst(const binary_tree_t *tree)
 	int prev;
 
 	if (tree == NULL)
-		return 0;
+		return (0);
 
 	prev = INT_MIN;
-	return check_bst(tree, &prev);
+	return (check_bst(tree, &prev));
 }
 
