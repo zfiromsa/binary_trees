@@ -56,6 +56,7 @@ bst_t *bst_insert(bst_t **tree, int value);
 bst_t *bst_search(const bst_t *tree, int value);
 bst_t *bst_remove(bst_t *root, int value);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
+binary_tree_t *find_ancestor(const binary_tree_t *tree, const binary_tree_t *node1, const binary_tree_t *node2);
 
 #endif
 
