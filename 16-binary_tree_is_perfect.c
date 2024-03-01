@@ -19,7 +19,10 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * 
+ * binary_tree_is_perfect - a function that measures the height of a node
+ *
+ * @tree: is a pointer to the node to measure the depth.
+ * Return: 0 or j
 */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
